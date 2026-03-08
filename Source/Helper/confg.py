@@ -8,7 +8,6 @@ class Settings(BaseSettings):
     FILE_SIZE: int
 
     class Config:
-
         env_file = ".env"
 
 def get_settings():
