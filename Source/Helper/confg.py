@@ -6,7 +6,7 @@ class Settings(BaseSettings):
     API_KEY: str
     FILE_ALLOWED_EXTENSIONS: list
     FILE_SIZE: int
-
+    FILE_CHUNK_SIZE: int
     class Config:
         env_file = ".env"
 
