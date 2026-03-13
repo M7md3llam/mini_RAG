@@ -7,6 +7,8 @@ class Settings(BaseSettings):
     FILE_ALLOWED_EXTENSIONS: list
     FILE_SIZE: int
     FILE_CHUNK_SIZE: int
+    MONGODB_URI: str
+    MONGODB_DATABASE: str
     class Config:
         env_file = ".env"
 
